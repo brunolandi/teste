@@ -1,5 +1,5 @@
 .error{
-    color: green;
+    color: red;
     font-size: 35px;
 }
 
@@ -17,4 +17,16 @@ p{
 
 .align-right{
     text-align: right;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+span{
+    font-size: 25px;
+    color: purple;
+}
+.list{
+    list-style: none;
 }
