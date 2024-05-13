@@ -1,0 +1,43 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.esctiloCor{
+    color: green;
+}
+
+p{
+    color: green;
+}
+.error{
+    color: red;
+    font-size: 35px;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+span{
+    font-size: 25px;
+    color: purple;
+}
+.list{
+    list-style: none;
+}
+.caps{
+    text-transform: uppercase;
+}
