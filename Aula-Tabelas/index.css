@@ -30,3 +30,6 @@ span{
 .list{
     list-style: none;
 }
+.caps{
+    text-transform: uppercase;
+}

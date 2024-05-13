@@ -1,0 +1,57 @@
+<!-- atributos e modificações
+    height: modifica altura da tabela ou celula;
+    width: modifica a largura da tabela ou celula;
+    cellspacing: configura o espaçamento entre as celulas;
+    cellpadding: configura o espaçamento entre as bordas da célula e conteúdo;
+    align: alinha o texto dentro da célula horizontalmente;
+    valign: alinha o texto verticalmente;
+
+    mais atributos
+    bordercolordark = border = bordercolodark
+    bordercolorlight = 
+    bgcolor = qualquer cor apenas;
+    background = além de cor, também outras formatações, como gradiente, imagem de fundo;
+    summary = informações da tabela;
+    abbr = informação da célula;
+    
+    layout tableless = não utilizar tabelas para montagem em sites, somente para e-mail é "permitido";
+    
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <table style="text-transform: uppercase;" height="200px" width="400px" valign="center" border="bordercolordark">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>nome</th>
+            <th>idade</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td>001</td>
+            <td>bruno landi</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>jhennifer maia</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>rodrigo landi</td>
+            <td>24</td>
+        </tr>
+    </tbody>
+    <tfoot></tfoot>
+    </table>
+</body>
+</html>

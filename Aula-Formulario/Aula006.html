@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320px, initial-scale=1.0">
+    <title>Formulario Descomplica teste</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <div>
+                Dados Cadastrais
+            </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <div>
+                <label for="nome">Nome Completo*</label><br>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="data_nasc">Data de Nascimento*</label><br>
+                <input type="date" name="data_nasc" id="data_nasc" maxlength="3" max="110">
+            </div>
+            <div>
+                <label for="endereco">Endereço*</label><br>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+            <div>
+                <label for="numero">Número*</label><br>
+                <input type="number" name="numero" id="numero">
+            </div>
+            <div>
+                <label for="cep">CEP*</label><br>
+                <input type="number" name="cep" id="cep"  maxlength="8">
+            </div>
+            <div>
+                <label for="complemento">Complemento</label><br>
+                <input type="text" name="complemento" id="complemento">
+            </div>
+            <div>
+                <label for="bairro">Bairro*</label><br>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+            <div>
+                <label for="pais">País*</label><br>
+                <select name="pais" id="pais">
+                <option selected value="">Selecione...</option>
+                <option value="">Brasil</option>
+            </select>
+            </div>
+            <div>
+                <label for="estado">Estado*</label><br>
+                <select name="estado" id="estado">
+                <option selected value="">Selecione...</option>
+                <option value="">São Paulo</option>
+            </select>
+            </div>
+            <div>
+                <label for="cidade">Cidade*</label><br>
+                <select name="cidade" id="cidade">
+                <option selected value="">Selecione...</option>
+                <option value="">São Paulo</option>
+            </select>
+            </div>
+        </fieldset>
+        <hr>
+            <div>
+
+            </div>
+            <button type="submit">Atualizar Dados</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+    <!-- atalhos para formulario
+    input precede a tag <form> e utiliza "name" para identificação
+        atributo "name" identifica um elemento dentro do formulário
+        utilizar ID e NAME para identeificar os campos dos formulários
+
+    formulario html ↓ LINHA 31 PARA BAIXO
+    input = texto
+    texarea = area de observação
+    select = campos com lista de opções = SEMPRE QUE ENVIAR, O VALOR ENVIADO É O VALUE, NÃO O CONTEUDO
+    combobox = 
+    fieldset = agrupador de informações, sempre utilizar no lugar de div quando estiver em formulário
+
+    label = campo em branco para o usuario dar comando, utilizando o for para atribuir o ID relacionado
+    hidden = type de input, não aparece para o usuário, info de nivel técnico
+    e-mail = input type e-mail, necessario para validar se o campo digitado é de fato um e-mail valido, não pela conferencia, mas pela estrutura de aaa@aaa.com
+    data, datetime e datetime-local = inputs diferentes
+
+    button = cria botão. submit envia os formulários.
+    input de type submit, tbm irá enviar se criado, mas pela semantica correta, sempre utilizar button.
+    button = reset, limpa formulário.  botão de imagem.
+    button upload = botão de upload de imagem/arquivo. LINHA 49
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://pruu.herokuapp.com/dump/test" method="post" target="_blank">
+        <fieldset>
+            nome:<input id="assunto" name="assunto" type="text"><br>
+            senha:<input id="senha" name="senha" type="password"><br>
+            idade:<input id="idade" name="idade" type="number"><br>
+            e-mail:<input id="email" name="email" type="email"><br>
+            data:<input id="datanasc" name="datanasc" type="date"><br>
+            cor:<input id="corfav" name="corfav" type="color"><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <select name="motivo" id="motivo">
+                <option value="sem motivo">não selecionado</option>
+                <option value="pq_sim">porque sim</option>
+                <option selected value="elogio">aula legal</option>
+                <option value="reclamacao">aula pessima</option>
+            </select>
+            <input type="file" name="file" id="file" multiple>
+       
+        <br>
+
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+    </fieldset>
+    </form>
+
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="hidden" name="nome" id="Tiago">
+    </form>
+</body>
+</html>
