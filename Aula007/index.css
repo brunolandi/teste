@@ -1,0 +1,33 @@
+.list{
+    list-style: none;   
+}
+
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100;
+    font-style:italic;
+    line-height: 50px;
+    color: black;
+    text-align: center;
+    text-decoration: underline wavy red;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px purple;
+}
+
+.navbar{
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.menu_button{
+    background-color: green;
+}
+
+.search_button{
+    background-color: red;
+}
+
+.logo{
+    background-color: white;
+}
