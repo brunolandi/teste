@@ -1,0 +1,37 @@
+<!--SOBRE GRID
+    sistema de divisão de layout
+    unidades de coluna serão sempre 12, para serem divididas entre, caso passe será jogado para a proxima linha 
+    col = menor unidade de espaço de tela
+    col-1 / 2 / 3 / 4 = até chegar 12 que sera preenchido por completo, no caso de utilizar apenas col o restante sera preenchdi (se faltar 1, 1 unidade de col, se sobrar 3, 3 e sucessivamente)
+    sm = celulares
+    md = celulares / tablets
+    lg = tablets
+    xl = desktop
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320px, initial-scale=1.0">
+    <title>BootStrap sample</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    </head>
+<body>
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">1</div>
+        <div class="col-12 col-sm-6 col-md-4">2</div>
+        <div class="col-12 col-sm-6 col-md-4">3</div>
+        <div class="col-6 col-sm-6 col-md-4">4</div>
+        <div class="col-6 col-sm-6 col-md-4">5</div>
+        <div class="col-6 col-sm-6 col-md-4">6</div>
+        <div class="col-3 col-sm-6 col-md-4">7</div>
+        <div class="col-3 col-sm-6 col-md-4">8</div>
+        <div class="col-4 col-sm-6 col-md-4">9</div>
+        <div class="col-4 col-sm-6 col-md-4">10</div>
+        <div class="col-4 col-sm-6 col-md-4">11</div>
+        <div class="col col-sm-6 col-md-4">12</div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
