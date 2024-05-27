@@ -14,10 +14,23 @@
     text-shadow: 1px 1px 1px purple;
 }
 
+.app{
+    display: flex;
+    flex-direction:  column;
+    background-color: turquoise;
+    height: 100vh;
+}
+
+.content{
+    background-color: tomato;
+    flex-grow: 0,5;
+}
+
 .navbar{
     display: flex;
     background-color: gray;
     justify-content: space-between;
+    height: 200px;
 }
 
 .menu_button{
